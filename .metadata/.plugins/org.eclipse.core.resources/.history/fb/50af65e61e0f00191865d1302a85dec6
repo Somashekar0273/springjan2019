@@ -1,0 +1,11 @@
+package com.innerbean.pojo;
+
+public class Blog {
+	private Gallery gallery;
+	
+	public Blog(Gallery gallery) {
+		
+	}
+	
+	
+}

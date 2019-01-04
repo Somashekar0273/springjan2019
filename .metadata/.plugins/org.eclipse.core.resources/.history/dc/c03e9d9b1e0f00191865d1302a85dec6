@@ -1,0 +1,14 @@
+package com.innerbean.pojo;
+
+public class Gallery {
+	
+	public Gallery() {
+		System.out.println("Gallery Constructor");
+		
+	}
+	
+	public void displayGallery(){
+		System.out.println("Gallery is displayed!");
+	)
+
+}

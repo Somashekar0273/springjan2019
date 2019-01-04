@@ -1,0 +1,16 @@
+package com.innerbean.pojo;
+
+public class Blog {
+	private Gallery gallery;
+	
+	public Blog(Gallery gallery) {
+		System.out.println("In Blog constructor!");
+		this.gallery = gallery;
+	}
+	
+	public void displayGalleryInBlog(){
+		gallery.displayGallery();
+	}
+	
+	
+}

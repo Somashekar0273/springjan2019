@@ -1,0 +1,12 @@
+package com.springboot.beginner.restapi;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloSpringBootController {
+
+	public String welcome() {
+		return "Hellof rom Spring Boot";
+	}
+	
+}

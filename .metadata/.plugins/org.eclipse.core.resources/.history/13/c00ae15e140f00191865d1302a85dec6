@@ -1,0 +1,21 @@
+package com.spring.multiple.pojo;
+
+public class Friend {
+	
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void initilizeMethod() {
+		System.out.println("I am in init-method. I can do any intializations here!");
+		
+	}
+	
+
+}

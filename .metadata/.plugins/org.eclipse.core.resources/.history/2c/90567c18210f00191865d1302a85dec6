@@ -1,0 +1,17 @@
+package com.innerbean.pojo;
+
+public class Gallery {
+	
+	private Picture picture;
+	
+	public Gallery(Picture picture) {
+		System.out.println("Gallery Constructor");
+		this.picture = picture;
+		
+	}
+	
+	public void displayGallery(){
+		System.out.println("Gallery is displayed! You can also inject Picture class here!");
+	}
+
+}

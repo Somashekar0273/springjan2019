@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id="friendBean" class="com.spring.multiple.pojo.Friend"> 
+		<property name="name" value="Prafful Daga"></property>
+	</bean>
+	
+	<bean id="cityBean" class="com.spring.multiple.pojo.City"> 
+		<property name="cityName" value="Chennai"></property>
+	</bean>
+	
+	<!--  singleton and prototype -->
+	</beans>

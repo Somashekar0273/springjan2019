@@ -1,0 +1,5 @@
+package com.soring.basics.bean;
+
+public class Friend {
+
+}

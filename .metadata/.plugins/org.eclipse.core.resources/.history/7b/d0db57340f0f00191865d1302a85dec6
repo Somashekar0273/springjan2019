@@ -1,0 +1,20 @@
+package com.sPring.basics.bean;
+
+public class Friend {
+	
+	private String fullname;
+	private int age;
+
+	public String getFullname() {
+		return fullname;
+	}
+
+	public void setFullname(String fullname) {
+		this.fullname = fullname;
+	}
+
+	
+	
+	
+
+}

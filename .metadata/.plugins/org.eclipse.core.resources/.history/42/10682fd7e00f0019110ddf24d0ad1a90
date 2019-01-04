@@ -1,0 +1,12 @@
+package com.springwebmvc.basic.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class WelcomeController {
+	
+	public void welcomeSpring() {
+		String message = "Hello from Spring MVC";
+	}
+	
+}

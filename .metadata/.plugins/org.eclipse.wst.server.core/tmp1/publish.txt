@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Jan 04 11:18:09 IST 2019
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Administrator\\.m2\\repository\\org\\springframework\\spring-web\\5.1.3.RELEASE\\spring-web-5.1.3.RELEASE.jar=C\:\\sts-bundle-3.9.5\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\005SpringMVCBasic\\WEB-INF\\lib\\spring-web-5.1.3.RELEASE.jar
+org.eclipse.jst.jee.server\:005SpringMVCBasic=C\:\\sts-bundle-3.9.5\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\005SpringMVCBasic

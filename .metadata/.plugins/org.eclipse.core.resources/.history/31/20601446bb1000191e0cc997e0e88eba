@@ -1,0 +1,18 @@
+package com.springwebmvc.basic.service;
+
+import com.springwebmvc.basic.bean.Friend;
+import com.springwebmvc.basic.dao.FriendDao;
+
+public class FriendService {
+	
+	FriendDao friendDao;
+
+	public void saveFriend(Friend friend) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+	
+	
+}

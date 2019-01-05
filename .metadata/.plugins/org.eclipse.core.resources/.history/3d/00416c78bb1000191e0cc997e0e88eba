@@ -1,0 +1,5 @@
+package com.springwebmvc.basic.dao;
+
+public class FriendDao {
+
+}

@@ -1,6 +1,7 @@
 package com.springwebmvc.basic.controller;
 
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,9 +9,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.springwebmvc.basic.bean.Friend;
+import com.springwebmvc.basic.service.FriendService;
 
 @Controller
 public class WelcomeController {
+	
+	@Autowired
+	FriendService friendService;
 	
 	private static Logger logger = Logger.getLogger(WelcomeController.class);
 	
@@ -42,6 +47,9 @@ public class WelcomeController {
 		logger.info("Received the value");
 		System.out.println(friend.getFriendName());
 		System.out.println(friend.getFriendLocation());
+		
+		friendService.saveFriend(friend);	
+
 		return new ModelAndView("redirect:/add.spring");
 		
 	}

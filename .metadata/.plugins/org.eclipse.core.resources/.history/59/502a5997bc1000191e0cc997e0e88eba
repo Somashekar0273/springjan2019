@@ -1,0 +1,21 @@
+package com.springwebmvc.basic.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.springwebmvc.basic.bean.Friend;
+import com.springwebmvc.basic.dao.FriendDao;
+
+public class FriendService {
+	
+	@Autowired
+	FriendDao friendDao;
+
+	public void saveFriend(Friend friend) {
+		// TODO Auto-generated method stub
+		
+		friendDao.saveFriend(friend);
+	}
+
+	
+	
+}

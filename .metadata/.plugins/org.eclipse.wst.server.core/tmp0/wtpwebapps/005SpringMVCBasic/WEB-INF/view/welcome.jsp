@@ -9,7 +9,7 @@
 </head>
 <body>
 	Message: ${msg}
-	<a href="add">Add</a>
-	<a href="list">List</a>
+	<a href="add.spring">Add</a>
+	<a href="list.spring">List</a>
 </body>
 </html>

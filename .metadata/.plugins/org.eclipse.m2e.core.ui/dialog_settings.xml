@@ -45,6 +45,20 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="005SpringMVCBasic"/>
+		</list>
+		<list key="name">
+			<item value="005SpringMVCBasic"/>
+		</list>
+		<list key="artifactId">
+			<item value="005SpringMVCBasic"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="C:\Users\Pradhi\Documents\workspace-sts-3.9.5.RELEASE-jan-2019\002SpringBasics\pom.xml"/>

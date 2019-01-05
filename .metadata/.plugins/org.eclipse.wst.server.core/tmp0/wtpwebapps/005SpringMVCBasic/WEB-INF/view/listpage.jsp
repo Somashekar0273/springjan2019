@@ -8,5 +8,6 @@
 </head>
 <body>
 	List Page: ${listmessage}
+	Message: ${addMessage}
 </body>
 </html>

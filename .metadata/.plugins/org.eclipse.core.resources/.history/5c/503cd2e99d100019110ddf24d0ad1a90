@@ -1,0 +1,9 @@
+package com.springwebmvc.basic.bean;
+
+public class Friend {
+	
+	private int id;
+	private String friendName;
+	private String friendLocation;
+
+}

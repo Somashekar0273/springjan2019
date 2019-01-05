@@ -1,0 +1,21 @@
+package com.springwebmvc.basic.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="friend")
+public class FriendEntity {
+	
+	@Id
+	@Column(name="friendid")
+	private int id;
+	@Column(name="friendName")
+	private String friendName;
+	@Column(name="friendLoc")
+	private String friendLocation;
+	
+
+}

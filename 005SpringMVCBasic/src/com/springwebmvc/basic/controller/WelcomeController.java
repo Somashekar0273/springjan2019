@@ -1,5 +1,6 @@
 package com.springwebmvc.basic.controller;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,8 @@ import com.springwebmvc.basic.bean.Friend;
 
 @Controller
 public class WelcomeController {
+	
+	private static Logger logger = Logger.getLogger(WelcomeController.class);
 	
 	@RequestMapping("/welcome")
 	public ModelAndView welcomeSpring() {
@@ -36,6 +39,7 @@ public class WelcomeController {
 	}
 	@RequestMapping(value= "/saveFriend", method = RequestMethod.POST )
 	public ModelAndView save(@ModelAttribute("command") Friend friend) {
+		logger.info("Received the value");
 		System.out.println(friend.getFriendName());
 		System.out.println(friend.getFriendLocation());
 		return new ModelAndView("redirect:/add.spring");

@@ -22,6 +22,7 @@ public class FriendDao {
 		FriendEntity friendEntity = new FriendEntity();
 		friendEntity.setFriendName(friend.getFriendName());
 		friendEntity.setFriendLocation(friend.getFriendLocation());
+		friendEntity.setId(friend.getId());
 		
 		Session session = null;
 		
@@ -87,6 +88,21 @@ public class FriendDao {
 		
 		
 		
+		
+	}
+
+	public void updateFriend(FriendEntity fe) {
+		// TODO Auto-generated method stub
+		Session session = null;
+		
+		try { 
+			session = sessionFactory.getCurrentSession();
+		}catch (HibernateException e){ 
+			session = sessionFactory.openSession();
+		}
+		
+		session.update(fe);
+		session.flush();
 		
 	}
 

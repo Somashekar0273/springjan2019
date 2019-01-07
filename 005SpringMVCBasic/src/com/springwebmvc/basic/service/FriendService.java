@@ -24,6 +24,7 @@ public class FriendService {
 		friendDao.saveFriend(friend);
 	}
 
+	@Transactional
 	public List listAll() {
 		// TODO Auto-generated method stub
 		return friendDao.listAll();
@@ -35,9 +36,16 @@ public class FriendService {
 		return friendDao.deleteFriend(id);
 	}
 
+	@Transactional
 	public FriendEntity getFriendById(int id) {
 		// TODO Auto-generated method stub
 		return friendDao.getFriendById(id);
+	}
+
+	@Transactional
+	public void updateFriend(FriendEntity fe) {
+		// TODO Auto-generated method stub
+		friendDao.updateFriend(fe);
 	}
 
 }

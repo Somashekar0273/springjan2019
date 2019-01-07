@@ -61,9 +61,17 @@ public class WelcomeController {
 		logger.info("Received the value");
 		System.out.println(friend.getFriendName());
 		System.out.println(friend.getFriendLocation());
+		System.out.println(friend.getId());
+		FriendEntity fe = friendService.getFriendById(friend.getId());
+		if(fe != null) {
+			fe.setFriendName(friend.getFriendName());
+			fe.setFriendLocation(friend.getFriendLocation());
+			fe.setId(friend.getId());
+			friendService.updateFriend(fe);
+		}else {
+			friendService.saveFriend(friend);	
+		}
 		
-		friendService.saveFriend(friend);	
-
 		return new ModelAndView("redirect:/list.spring");
 		
 	}
@@ -84,7 +92,6 @@ public class WelcomeController {
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("command", fe);
 		mv.setViewName("addpage");
-		
 		return mv;
 		
 		

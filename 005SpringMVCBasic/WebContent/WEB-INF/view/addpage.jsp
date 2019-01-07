@@ -16,6 +16,11 @@
 	<form:form action="saveFriend.spring" method="POST" >
 		<table>
 			<tr>
+				<td>Id:</td>
+				<td><form:input path="id" readonly="true"/> </td>
+			</tr>	
+		
+			<tr>
 				<td>Name:</td>
 				<td><form:input path="friendName"/> </td>
 			</tr>	

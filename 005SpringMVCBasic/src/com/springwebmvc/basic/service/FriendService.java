@@ -28,6 +28,12 @@ public class FriendService {
 		return friendDao.listAll();
 	}
 
+	@Transactional
+	public List deleteFriend(int id) {
+		// TODO Auto-generated method stub
+		return friendDao.deleteFriend(id);
+	}
+
 	
 	
 }

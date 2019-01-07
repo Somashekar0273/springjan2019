@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.springwebmvc.basic.bean.Friend;
@@ -65,6 +66,16 @@ public class WelcomeController {
 
 		return new ModelAndView("redirect:/list.spring");
 		
+	}
+	
+	@RequestMapping("/delete")
+	public ModelAndView deleteFriend(@RequestParam("id") int id) {
+		System.out.println(id);
+		List friendsList =  friendService.deleteFriend(id);
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("friends", friendsList);
+		mv.setViewName("listpage");
+		return mv;
 	}
 	
 	

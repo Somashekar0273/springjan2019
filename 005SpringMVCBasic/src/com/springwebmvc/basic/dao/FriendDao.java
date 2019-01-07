@@ -54,4 +54,22 @@ public class FriendDao {
 		
 	}
 
+	public List deleteFriend(int id) {
+		// TODO Auto-generated method stub
+		Session session = null;
+		
+		try { 
+			session = sessionFactory.getCurrentSession();
+		}catch (HibernateException e){ 
+			session = sessionFactory.openSession();
+		}
+		//get the instance of FriendEntity using id which is received
+		FriendEntity fe = session.get(FriendEntity.class, id);
+		//delete the friendEntity instance using ORM
+		session.delete(fe);
+		session.flush();
+		//return the list if remaining friends
+		return session.createCriteria(FriendEntity.class).list();
+	}
+
 }

@@ -33,7 +33,7 @@ public class WelcomeController {
 		return mv;
 	}
 	
-	@RequestMapping("/add")
+	@RequestMapping(value = "/add")
 	public ModelAndView addMethod() {
 		String message = "Add new record!!!!";
 		ModelAndView mv = new ModelAndView();
@@ -76,6 +76,19 @@ public class WelcomeController {
 		mv.addObject("friends", friendsList);
 		mv.setViewName("listpage");
 		return mv;
+	}
+	
+	@RequestMapping(value = "/update" )
+	public ModelAndView updateFriend(@RequestParam("id") int id) {
+		FriendEntity fe = friendService.getFriendById(id);
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("command", fe);
+		mv.setViewName("addpage");
+		
+		return mv;
+		
+		
+		
 	}
 	
 	

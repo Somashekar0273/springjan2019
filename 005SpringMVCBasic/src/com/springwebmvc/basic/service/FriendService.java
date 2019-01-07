@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.springwebmvc.basic.bean.Friend;
 import com.springwebmvc.basic.dao.FriendDao;
+import com.springwebmvc.basic.entity.FriendEntity;
 
 @Service("friendService")
 public class FriendService {
@@ -34,6 +35,9 @@ public class FriendService {
 		return friendDao.deleteFriend(id);
 	}
 
-	
-	
+	public FriendEntity getFriendById(int id) {
+		// TODO Auto-generated method stub
+		return friendDao.getFriendById(id);
+	}
+
 }

@@ -72,4 +72,22 @@ public class FriendDao {
 		return session.createCriteria(FriendEntity.class).list();
 	}
 
+	public FriendEntity getFriendById(int id) {
+		// TODO Auto-generated method stub
+		Session session = null;
+		
+		try { 
+			session = sessionFactory.getCurrentSession();
+		}catch (HibernateException e){ 
+			session = sessionFactory.openSession();
+		}
+		
+		
+		return session.get(FriendEntity.class, id);
+		
+		
+		
+		
+	}
+
 }

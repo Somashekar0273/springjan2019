@@ -15,14 +15,20 @@
 				<th>ID</th>
 				<th>Name</th>
 				<th>Location</th>
-				<th>Actions</th>
+				<th colspan="2">Actions</th>
 			</tr>
 			<c:forEach items="${friends}" var="friend">
 			 <tr>
 			 	<td><c:out value="${friend.id}"></c:out></td>
 			 	<td><c:out value="${friend.friendName}"></c:out></td>
 			 	<td><c:out value="${friend.friendLocation}"></c:out></td>
-			 	<td><a href="delete.spring?id=${friend.id}">Delete</a> </td>
+			 	<td>
+			 		<a href="delete.spring?id=${friend.id}">Delete</a> 
+			 	</td>
+			 	<td>
+			 		<a href="update.spring?id=${friend.id}">Update</a>
+			 	</td>
+			 	
 			 </tr>
 			</c:forEach>
 		</table>

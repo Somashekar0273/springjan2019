@@ -38,7 +38,7 @@ public class WelcomeController {
 	public ModelAndView addMethod() {
 		String message = "Add new record!!!!";
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("command", new Friend());
+		//mv.addObject("command", new Friend());
 		mv.addObject("addmessage", message);
 		mv.setViewName("addpage");
 		return mv;
@@ -49,7 +49,7 @@ public class WelcomeController {
 		friend = friendService.listAll();
 		System.out.println(friend.size());
 		ModelAndView mv = new ModelAndView();
-		//mv.addObject("command", new Friend());
+		mv.addObject("command", new Friend());
 		mv.addObject("friends", friend);	
 		mv.setViewName("listpage");
 		return mv;

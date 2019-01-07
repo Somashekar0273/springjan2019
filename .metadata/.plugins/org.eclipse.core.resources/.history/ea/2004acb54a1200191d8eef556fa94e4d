@@ -6,7 +6,6 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -49,7 +48,7 @@ public class WelcomeController {
 		friend = friendService.listAll();
 		System.out.println(friend.size());
 		ModelAndView mv = new ModelAndView();
-		//mv.addObject("command", new Friend());
+		mv.addObject("command", new Friend())
 		mv.addObject("friends", friend);	
 		mv.setViewName("listpage");
 		return mv;
@@ -89,16 +88,10 @@ public class WelcomeController {
 	}
 	
 	@RequestMapping(value = "/update" )
-	public ModelAndView updateFriend(
-			@RequestParam("id") int id) {
+	public ModelAndView updateFriend(@RequestParam("id") int id) {
 		FriendEntity fe = friendService.getFriendById(id);
-		Friend f = new Friend();
-		f.setId(fe.getId());
-		f.setFriendName(fe.getFriendName());
-		f.setFriendLocation(fe.getFriendLocation());
-		
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("command", f);
+		mv.addObject("command", fe);
 		mv.setViewName("addpage");
 		return mv;
 		

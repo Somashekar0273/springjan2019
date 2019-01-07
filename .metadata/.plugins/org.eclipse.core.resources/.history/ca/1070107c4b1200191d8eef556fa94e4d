@@ -49,7 +49,7 @@ public class WelcomeController {
 		friend = friendService.listAll();
 		System.out.println(friend.size());
 		ModelAndView mv = new ModelAndView();
-		//mv.addObject("command", new Friend());
+		mv.addObject("command", new Friend());
 		mv.addObject("friends", friend);	
 		mv.setViewName("listpage");
 		return mv;
@@ -96,9 +96,8 @@ public class WelcomeController {
 		f.setId(fe.getId());
 		f.setFriendName(fe.getFriendName());
 		f.setFriendLocation(fe.getFriendLocation());
-		
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("command", f);
+		mv.addObject("command", fe);
 		mv.setViewName("addpage");
 		return mv;
 		

@@ -248,3 +248,15 @@
 127.0.0.1 - - [07/Jan/2019:12:26:46 +0530] "GET /005SpringMVCBasic/update.spring?id=38 HTTP/1.1" 200 725
 127.0.0.1 - - [07/Jan/2019:12:26:50 +0530] "POST /005SpringMVCBasic/saveFriend.spring HTTP/1.1" 302 -
 127.0.0.1 - - [07/Jan/2019:12:26:50 +0530] "GET /005SpringMVCBasic/list.spring HTTP/1.1" 200 1240
+127.0.0.1 - - [07/Jan/2019:12:39:38 +0530] "GET /005SpringMVCBasic/update.spring?id=39 HTTP/1.1" 200 717
+127.0.0.1 - - [07/Jan/2019:12:44:56 +0530] "GET /005SpringMVCBasic/ HTTP/1.1" 200 227
+127.0.0.1 - - [07/Jan/2019:12:44:59 +0530] "GET /005SpringMVCBasic/list.spring HTTP/1.1" 200 1240
+127.0.0.1 - - [07/Jan/2019:12:45:01 +0530] "GET /005SpringMVCBasic/update.spring?id=40 HTTP/1.1" 200 730
+127.0.0.1 - - [07/Jan/2019:12:45:04 +0530] "POST /005SpringMVCBasic/saveFriend.spring HTTP/1.1" 302 -
+127.0.0.1 - - [07/Jan/2019:12:45:04 +0530] "GET /005SpringMVCBasic/list.spring HTTP/1.1" 200 1244
+127.0.0.1 - - [07/Jan/2019:12:45:08 +0530] "GET /005SpringMVCBasic/delete.spring?id=40 HTTP/1.1" 200 1001
+127.0.0.1 - - [07/Jan/2019:12:45:08 +0530] "GET /005SpringMVCBasic/delete.spring?id=39 HTTP/1.1" 200 758
+127.0.0.1 - - [07/Jan/2019:12:45:09 +0530] "GET /005SpringMVCBasic/delete.spring?id=38 HTTP/1.1" 200 528
+127.0.0.1 - - [07/Jan/2019:12:45:10 +0530] "GET /005SpringMVCBasic/update.spring?id=28 HTTP/1.1" 200 721
+127.0.0.1 - - [07/Jan/2019:12:45:15 +0530] "POST /005SpringMVCBasic/saveFriend.spring HTTP/1.1" 302 -
+127.0.0.1 - - [07/Jan/2019:12:45:15 +0530] "GET /005SpringMVCBasic/list.spring HTTP/1.1" 200 530

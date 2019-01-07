@@ -1,5 +1,8 @@
 package com.springwebmvc.basic.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.springwebmvc.basic.bean.Friend;
+import com.springwebmvc.basic.entity.FriendEntity;
 import com.springwebmvc.basic.service.FriendService;
 
 @Controller
@@ -39,9 +43,18 @@ public class WelcomeController {
 	}
 	@RequestMapping("/list")
 	public ModelAndView listMethod() {
-		String message = "List all records!!!!";
-		return new ModelAndView("listpage", "listmessage", message);
+		List friend = new ArrayList<FriendEntity>();
+		friend = friendService.listAll();
+		System.out.println(friend.size());
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("friends", friend);	
+		mv.setViewName("listpage");
+		return mv;
+		
+		
 	}
+	
+	
 	@RequestMapping(value= "/saveFriend", method = RequestMethod.POST )
 	public ModelAndView save(@ModelAttribute("command") Friend friend) {
 		logger.info("Received the value");
@@ -50,9 +63,12 @@ public class WelcomeController {
 		
 		friendService.saveFriend(friend);	
 
-		return new ModelAndView("redirect:/add.spring");
+		return new ModelAndView("redirect:/list.spring");
 		
 	}
+	
+	
+	
 	
 	
 	

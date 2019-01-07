@@ -1,5 +1,7 @@
 package com.springwebmvc.basic.dao;
 
+import java.util.List;
+
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -33,6 +35,21 @@ public class FriendDao {
 		
 		session.flush();
 		
+		
+		
+	}
+
+	public List listAll() {
+		// TODO Auto-generated method stub
+		Session session = null;
+		
+		try { 
+			session = sessionFactory.getCurrentSession();
+		}catch (HibernateException e){ 
+			session = sessionFactory.openSession();
+		}
+		
+		return session.createCriteria(FriendEntity.class).list();
 		
 		
 	}

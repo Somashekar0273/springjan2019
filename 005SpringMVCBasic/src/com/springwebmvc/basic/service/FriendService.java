@@ -1,5 +1,7 @@
 package com.springwebmvc.basic.service;
 
+import java.util.List;
+
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,11 @@ public class FriendService {
 		// TODO Auto-generated method stub
 		
 		friendDao.saveFriend(friend);
+	}
+
+	public List listAll() {
+		// TODO Auto-generated method stub
+		return friendDao.listAll();
 	}
 
 	

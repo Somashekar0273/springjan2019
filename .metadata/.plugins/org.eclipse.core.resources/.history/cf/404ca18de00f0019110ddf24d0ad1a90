@@ -1,5 +1,0 @@
-package com.springwebmvc.basic.controller;
-
-public class WelcomeController {
-
-}

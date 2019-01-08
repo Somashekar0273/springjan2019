@@ -53,8 +53,7 @@ public class WelcomeController {
 		mv.addObject("friends", friend);	
 		mv.setViewName("listpage");
 		return mv;
-		
-		
+	
 	}
 	
 	

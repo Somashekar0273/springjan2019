@@ -22,5 +22,10 @@ public class ProductService {
 		// TODO Auto-generated method stub
 		return productDao.addProduct(p);
 	}
+	
+	@Transactional
+	public Product getProductById(int id) {
+		return productDao.getProductById(id);
+	}
 
 }

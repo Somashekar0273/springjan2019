@@ -24,10 +24,18 @@ public class ProductDAO {
 				
 		productRepository.saveAndFlush(pe);
 		return productRepository.findAll();
-		
-		
-		
-		
+	
+	}
+	
+	//get product by id
+	public Product getProductById(int id) {
+		ProductEntity pe = productRepository.findById(id).get();
+		Product p = new Product();
+		p.setId(pe.getId());
+		p.setName(pe.getName());
+		p.setCategoryid(pe.getCategoryid());
+		p.setPrice(pe.getPrice());
+		return p;
 	}
 
 }

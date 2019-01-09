@@ -3,6 +3,7 @@ package com.springboot.main.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -27,6 +28,11 @@ public class RestProductController {
 	@RequestMapping(value = "/add", method=RequestMethod.POST)
 	public List<ProductEntity> addProduct(@RequestBody Product p) {
 		return productService.addProduct(p);
+	}
+	
+	@RequestMapping(value="/get/{id}", method=RequestMethod.GET)
+	public Product getProductById(@PathVariable("id") int myid) {
+		return productService.getProductById(myid);
 	}
 	
 	

@@ -33,4 +33,9 @@ public class ProductService {
 		return productDao.getAllProducts();
 	}
 
+	public List updateProduct(int myid, Product p) {
+		// TODO Auto-generated method stub
+		return productDao.updateProduct(myid, p);
+	}
+
 }

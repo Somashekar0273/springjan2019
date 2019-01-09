@@ -41,6 +41,19 @@ public class ProductDAO {
 	
 	//get all products
 	public List getAllProducts(){
+		
+		return productRepository.findAll();
+	}
+
+	public List updateProduct(int myid, Product p) {
+		// TODO Auto-generated method stub
+		ProductEntity pe = new ProductEntity();
+		pe.setId(myid);
+		pe.setName(p.getName());
+		pe.setCategoryid(p.getCategoryid());
+		pe.setPrice(p.getPrice());
+		
+		productRepository.saveAndFlush(pe);
 		return productRepository.findAll();
 	}
 

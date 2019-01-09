@@ -40,6 +40,9 @@ public class RestProductController {
 		return productService.getAllProducts();
 	}
 	
-	
+	@RequestMapping(value="update/{id}", method=RequestMethod.POST)
+	public List updateProduct(@PathVariable("id") int myid, @RequestBody Product p ) {
+		return productService.updateProduct(myid, p);
+	}
 
 }

@@ -38,4 +38,9 @@ public class ProductService {
 		return productDao.updateProduct(myid, p);
 	}
 
+	public List deleteProduct(int myid) {
+		// TODO Auto-generated method stub
+		return productDao.deleteProduct(myid);
+	}
+
 }

@@ -42,6 +42,8 @@ public class ProductDAO {
 	//get all products
 	public List getAllProducts(){
 		
+	
+		
 		return productRepository.findAll();
 	}
 
@@ -54,6 +56,13 @@ public class ProductDAO {
 		pe.setPrice(p.getPrice());
 		
 		productRepository.saveAndFlush(pe);
+		return productRepository.findAll();
+	}
+
+	public List deleteProduct(int myid) {
+		// TODO Auto-generated method stub
+		productRepository.deleteById(myid);
+		
 		return productRepository.findAll();
 	}
 

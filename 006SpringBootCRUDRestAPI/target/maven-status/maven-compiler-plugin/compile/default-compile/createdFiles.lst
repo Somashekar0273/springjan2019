@@ -1,0 +1,7 @@
+com\springboot\main\SpringBootMain.class
+com\springboot\main\dao\ProductDAO.class
+com\springboot\main\pojo\Product.class
+com\springboot\main\service\ProductService.class
+com\springboot\main\controller\RestProductController.class
+com\springboot\main\entity\ProductEntity.class
+com\springboot\main\repository\ProductRepository.class

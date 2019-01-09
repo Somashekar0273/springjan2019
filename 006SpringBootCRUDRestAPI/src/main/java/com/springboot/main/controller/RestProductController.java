@@ -44,5 +44,13 @@ public class RestProductController {
 	public List updateProduct(@PathVariable("id") int myid, @RequestBody Product p ) {
 		return productService.updateProduct(myid, p);
 	}
+	
+	@RequestMapping(value="/del/{id}", method=RequestMethod.DELETE)
+	public List deleteProduct(@PathVariable("id") int myid) {
+		return productService.deleteProduct(myid);
+	}
+		
+	
+	
 
 }

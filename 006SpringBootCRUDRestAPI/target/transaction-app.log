@@ -1,0 +1,99 @@
+2019-01-09 11:39:15.914  INFO 9656 --- [main] com.springboot.main.SpringBootMain       : Starting SpringBootMain v0.0.1-SNAPSHOT on LAPTOP-UA22IT58 with PID 9656 (C:\Users\Pradhi\Documents\workspace-sts-3.9.5.RELEASE-jan-2019\006SpringBootCRUDRestAPI\target\006SpringBootCRUDRestAPI-0.0.1-SNAPSHOT.war started by Administrator in C:\Users\Pradhi\Documents\workspace-sts-3.9.5.RELEASE-jan-2019\006SpringBootCRUDRestAPI\target)
+2019-01-09 11:39:15.951  INFO 9656 --- [main] com.springboot.main.SpringBootMain       : No active profile set, falling back to default profiles: default
+2019-01-09 11:39:16.277  INFO 9656 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568: startup date [Wed Jan 09 11:39:16 IST 2019]; root of context hierarchy
+2019-01-09 11:39:20.392  INFO 9656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$239450b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 11:39:22.190  INFO 9656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-01-09 11:39:22.283  INFO 9656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-09 11:39:22.285  INFO 9656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-01-09 11:39:22.299  INFO 9656 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cmder_mini\bin;C:\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder_mini\vendor\conemu-maximus5;C:\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Android\sdk\platform-tools\;C:\apache-maven-3.5.0\bin;C:\Flutter\flutter\bin;C:\Program Files (x86)\WinSCP\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\MongoDB\bin;C:\Android\sdk\tools\;C:\curl-7.57.0-win64-mingw\bin;C:\apache-groovy-sdk-2.4.13\groovy-2.4.13\bin\;C:\gradle-4.4.1\bin\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) M;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\kotlinc\bin;C:\Program Files\Microsoft VS Code\bin;C:\cmder_mini;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\Pradhi\AppData\Roaming\npm;C:\Program Files (x86)\Calibre2\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Git\cmd;C:\PuTTY\;C:\Program Files\Cloud Foundry;C:\spring-2.1.1.RELEASE\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Git\mingw64;C:\Git\usr\bin;.]
+2019-01-09 11:39:25.114  INFO 9656 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-09 11:39:25.115  INFO 9656 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8839 ms
+2019-01-09 11:39:25.229  INFO 9656 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-01-09 11:39:25.234  INFO 9656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-09 11:39:25.235  INFO 9656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-09 11:39:25.238  INFO 9656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-09 11:39:25.241  INFO 9656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-09 11:39:25.680  INFO 9656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-09 11:39:26.011  INFO 9656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-09 11:39:26.061  INFO 9656 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-09 11:39:26.108  INFO 9656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-09 11:39:26.244  INFO 9656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-01-09 11:39:26.246  INFO 9656 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-09 11:39:26.445  INFO 9656 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-09 11:39:26.724  INFO 9656 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-09 11:39:27.569  INFO 9656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 11:39:27.875 DEBUG 9656 --- [main] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=true]
+2019-01-09 11:39:27.887  INFO 9656 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-09 11:39:27.895  INFO 9656 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-09 11:39:28.041  INFO 9656 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-09 11:39:28.161  INFO 9656 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-09 11:39:28.400  INFO 9656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 11:39:28.915  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568: startup date [Wed Jan 09 11:39:16 IST 2019]; root of context hierarchy
+2019-01-09 11:39:29.033  WARN 9656 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-09 11:39:29.086  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/del/{id}],methods=[DELETE]}" onto public java.util.List com.springboot.main.controller.RestProductController.deleteProduct(int)
+2019-01-09 11:39:29.088  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/update/{id}],methods=[POST]}" onto public java.util.List com.springboot.main.controller.RestProductController.updateProduct(int,com.springboot.main.pojo.Product)
+2019-01-09 11:39:29.090  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/get],methods=[GET]}" onto public java.util.List com.springboot.main.controller.RestProductController.getAllProducts()
+2019-01-09 11:39:29.091  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/welcome]}" onto public java.lang.String com.springboot.main.controller.RestProductController.welcome()
+2019-01-09 11:39:29.093  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/add],methods=[POST]}" onto public java.util.List<com.springboot.main.entity.ProductEntity> com.springboot.main.controller.RestProductController.addProduct(com.springboot.main.pojo.Product)
+2019-01-09 11:39:29.095  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/get/{id}],methods=[GET]}" onto public com.springboot.main.pojo.Product com.springboot.main.controller.RestProductController.getProductById(int)
+2019-01-09 11:39:29.100  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-09 11:39:29.103  INFO 9656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-09 11:39:29.146  INFO 9656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 11:39:29.148  INFO 9656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 11:39:29.530  INFO 9656 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-09 11:39:29.533  INFO 9656 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-09 11:39:29.542  INFO 9656 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-01-09 11:39:29.627  INFO 9656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-09 11:39:29.632  INFO 9656 --- [main] com.springboot.main.SpringBootMain       : Started SpringBootMain in 16.634 seconds (JVM running for 19.117)
+2019-01-09 11:40:21.066  INFO 9656 --- [Thread-4] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568: startup date [Wed Jan 09 11:39:16 IST 2019]; root of context hierarchy
+2019-01-09 11:40:21.090  INFO 9656 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-01-09 11:40:21.097  INFO 9656 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-01-09 11:40:21.103  INFO 9656 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 11:40:21.110  INFO 9656 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-09 11:40:21.121  INFO 9656 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

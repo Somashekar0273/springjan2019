@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.springboot.main.entity.ProductEntity;
 import com.springboot.main.pojo.Product;
 import com.springboot.main.repository.ProductRepository;
+import com.springboot.main.service.ProductService;
 
 @Repository("productDao")
 public class ProductDAO {
@@ -36,6 +37,11 @@ public class ProductDAO {
 		p.setCategoryid(pe.getCategoryid());
 		p.setPrice(pe.getPrice());
 		return p;
+	}
+	
+	//get all products
+	public List getAllProducts(){
+		return productRepository.findAll();
 	}
 
 }

@@ -35,6 +35,10 @@ public class RestProductController {
 		return productService.getProductById(myid);
 	}
 	
+	@RequestMapping(value="/get", method=RequestMethod.GET)
+	public List getAllProducts() {
+		return productService.getAllProducts();
+	}
 	
 	
 

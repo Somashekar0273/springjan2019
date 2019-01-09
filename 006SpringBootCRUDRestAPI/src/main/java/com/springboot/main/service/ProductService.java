@@ -28,4 +28,9 @@ public class ProductService {
 		return productDao.getProductById(id);
 	}
 
+	public List getAllProducts() {
+		// TODO Auto-generated method stub
+		return productDao.getAllProducts();
+	}
+
 }

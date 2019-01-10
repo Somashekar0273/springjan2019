@@ -8835,3 +8835,11 @@ Caused by: java.lang.ClassNotFoundException: Map
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
+2019-01-10 13:09:49.070  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-01-10 13:09:49.071  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b8d604: startup date [Thu Jan 10 12:54:34 IST 2019]; root of context hierarchy
+2019-01-10 13:09:49.072  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3704c12: startup date [Thu Jan 10 12:54:36 IST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b8d604
+2019-01-10 13:09:49.509  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-01-10 13:09:49.509  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-01-10 13:09:49.510  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 13:09:49.510  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2019-01-10 13:09:49.514  INFO 19788 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.

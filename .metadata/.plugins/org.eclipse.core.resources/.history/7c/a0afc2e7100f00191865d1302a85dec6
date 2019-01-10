@@ -1,8 +1,0 @@
-package com.spring.multiple.pojo;
-
-public class Friend {
-	
-	private String name;
-	
-
-}

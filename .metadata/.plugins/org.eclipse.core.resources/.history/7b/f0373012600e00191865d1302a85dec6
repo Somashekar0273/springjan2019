@@ -1,7 +1,0 @@
-package com.soring.basics.bean;
-
-public class Friend {
-	
-	private String name;
-
-}

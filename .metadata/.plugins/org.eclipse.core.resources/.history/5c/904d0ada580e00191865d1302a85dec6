@@ -1,5 +1,0 @@
-package com.springboot.beginner.restapi;
-
-public class HelloSpringBootController {
-
-}

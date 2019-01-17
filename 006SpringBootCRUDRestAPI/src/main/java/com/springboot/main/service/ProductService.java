@@ -5,6 +5,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import com.springboot.main.dao.ProductDAO;
@@ -24,7 +25,17 @@ public class ProductService {
 	}
 	
 	@Transactional
+	@Cacheable("product")
 	public Product getProductById(int id) {
+		try {
+			System.out.println("Sleep for 8 seconds to simulate call to DB");
+			Thread.sleep(8000);
+		}catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
+		
 		return productDao.getProductById(id);
 	}
 

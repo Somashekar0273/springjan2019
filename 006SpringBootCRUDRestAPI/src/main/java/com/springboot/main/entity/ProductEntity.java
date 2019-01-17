@@ -7,8 +7,15 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Entity
 @Table(name="product")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ProductEntity {
 	
 	@Id
@@ -21,49 +28,6 @@ public class ProductEntity {
 	@Column
 	private int categoryid;
 
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public long getPrice() {
-		return price;
-	}
-
-	public void setPrice(long price) {
-		this.price = price;
-	}
-
-	public int getCategoryid() {
-		return categoryid;
-	}
-
-	public void setCategoryid(int categoryid) {
-		this.categoryid = categoryid;
-	}
-
-	public ProductEntity(int id, String name, long price, int categoryid) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.price = price;
-		this.categoryid = categoryid;
-	}
-
 	
-	public ProductEntity() {
-		
-	}
 	
 }

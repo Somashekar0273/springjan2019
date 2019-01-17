@@ -2,6 +2,8 @@ package com.springboot.main.restcontroller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -32,8 +34,8 @@ public class RestProductController {
 		return "About Product REST API Version 1.0";
 	}	
 	
-	@RequestMapping(value = "/add", method=RequestMethod.POST)
-	public List<ProductEntity> addProduct(@RequestBody Product p) {
+	@RequestMapping(value = "/add", method=RequestMethod.POST, consumes=MediaType.APPLICATION_JSON_VALUE)
+	public List<ProductEntity> addProduct(@Valid @RequestBody Product p) {
 		return productService.addProduct(p);
 	}
 	

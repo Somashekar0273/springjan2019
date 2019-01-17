@@ -1,0 +1,196 @@
+2019-01-11 09:42:37.435  INFO 11764 --- [main] com.springboot.main.SpringBootMain       : Starting SpringBootMain v0.0.1-SNAPSHOT on LAPTOP-UA22IT58 with PID 11764 (C:\Users\Pradhi\Documents\workspace-sts-3.9.5.RELEASE-jan-2019\006SpringBootCRUDRestAPI\target\006SpringBootCRUDRestAPI-0.0.1-SNAPSHOT.war started by Administrator in C:\Users\Pradhi\Documents\workspace-sts-3.9.5.RELEASE-jan-2019\006SpringBootCRUDRestAPI\target)
+2019-01-11 09:42:37.456  INFO 11764 --- [main] com.springboot.main.SpringBootMain       : No active profile set, falling back to default profiles: default
+2019-01-11 09:42:37.554  INFO 11764 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568: startup date [Fri Jan 11 09:42:37 IST 2019]; root of context hierarchy
+2019-01-11 09:42:40.352  INFO 11764 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d47a89e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 09:42:42.046  INFO 11764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-01-11 09:42:42.171  INFO 11764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-11 09:42:42.172  INFO 11764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-01-11 09:42:42.189  INFO 11764 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cmder_mini\bin;C:\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder_mini\vendor\conemu-maximus5;C:\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\spring-2.1.1.RELEASE\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Android\sdk\platform-tools\;C:\apache-maven-3.5.0\bin;C:\Flutter\flutter\bin;C:\Program Files (x86)\WinSCP\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\MongoDB\bin;C:\Android\sdk\tools\;C:\curl-7.57.0-win64-mingw\bin;C:\apache-groovy-sdk-2.4.13\groovy-2.4.13\bin\;C:\gradle-4.4.1\bin\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) M;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\kotlinc\bin;C:\Program Files\Microsoft VS Code\bin;C:\cmder_mini;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\Pradhi\AppData\Roaming\npm;C:\Program Files (x86)\Calibre2\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Git\cmd;C:\PuTTY\;C:\Program Files\Cloud Foundry;C:\PivotalCloudFoundry;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Git\mingw64;C:\Git\usr\bin;.]
+2019-01-11 09:42:44.069  INFO 11764 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-11 09:42:44.071  INFO 11764 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6517 ms
+2019-01-11 09:42:44.716  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-11 09:42:44.717  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-01-11 09:42:44.718  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-11 09:42:44.720  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-11 09:42:44.722  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-11 09:42:44.724  INFO 11764 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-11 09:42:44.726  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-01-11 09:42:44.727  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-01-11 09:42:44.735  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2/*]
+2019-01-11 09:42:45.070  INFO 11764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-11 09:42:45.702  INFO 11764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-11 09:42:45.772  INFO 11764 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-11 09:42:45.821  INFO 11764 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-11 09:42:45.953  INFO 11764 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-01-11 09:42:45.956  INFO 11764 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-11 09:42:46.078  INFO 11764 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-11 09:42:46.384  INFO 11764 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-11 09:42:47.607  INFO 11764 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-11 09:42:48.014 DEBUG 11764 --- [main] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=true]
+2019-01-11 09:42:48.052  INFO 11764 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 09:42:48.070  INFO 11764 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 09:42:48.170  INFO 11764 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 09:42:48.231  INFO 11764 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 09:42:48.912  INFO 11764 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-11 09:42:49.640  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568: startup date [Fri Jan 11 09:42:37 IST 2019]; root of context hierarchy
+2019-01-11 09:42:49.744  WARN 11764 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-11 09:42:49.822  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.springboot.main.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2019-01-11 09:42:49.952  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/get],methods=[GET]}" onto public java.util.List com.springboot.main.restcontroller.RestProductController.getAllProducts()
+2019-01-11 09:42:49.966  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/add],methods=[POST]}" onto public java.util.List<com.springboot.main.entity.ProductEntity> com.springboot.main.restcontroller.RestProductController.addProduct(com.springboot.main.pojo.Product)
+2019-01-11 09:42:50.109  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/del/{id}],methods=[DELETE]}" onto public java.util.List com.springboot.main.restcontroller.RestProductController.deleteProduct(int)
+2019-01-11 09:42:50.135  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/welcome]}" onto public java.lang.String com.springboot.main.restcontroller.RestProductController.welcome()
+2019-01-11 09:42:50.164  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/update/{id}],methods=[POST]}" onto public java.util.List com.springboot.main.restcontroller.RestProductController.updateProduct(int,com.springboot.main.pojo.Product)
+2019-01-11 09:42:50.169  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/welcome/about]}" onto public java.lang.String com.springboot.main.restcontroller.RestProductController.about()
+2019-01-11 09:42:50.172  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/get/{id}],methods=[GET]}" onto public com.springboot.main.pojo.Product com.springboot.main.restcontroller.RestProductController.getProductById(int)
+2019-01-11 09:42:50.189  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-11 09:42:50.209  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-11 09:42:50.277  INFO 11764 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-11 09:42:50.279  INFO 11764 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-11 09:42:50.489  INFO 11764 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2019-01-11 09:42:52.299  INFO 11764 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68fa0ba8, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e61d218, org.springframework.security.web.header.HeaderWriterFilter@2f4205be, org.springframework.security.web.authentication.logout.LogoutFilter@522a32b1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5ddea849, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20b12f8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54a67a45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c5945a7, org.springframework.security.web.session.SessionManagementFilter@3bd418e4, org.springframework.security.web.access.ExceptionTranslationFilter@3c9bfddc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a1dd365]
+2019-01-11 09:42:52.464  INFO 11764 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-11 09:42:52.467  INFO 11764 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-11 09:42:52.475  INFO 11764 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-01-11 09:42:52.482  INFO 11764 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c5ee75e: startup date [Fri Jan 11 09:42:52 IST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568
+2019-01-11 09:42:52.575  INFO 11764 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'handlerExceptionResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=handlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.web.servlet.WebMvcEndpointChildContextConfiguration; factoryMethodName=compositeHandlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/web/servlet/WebMvcEndpointChildContextConfiguration.class]]
+2019-01-11 09:42:52.691  INFO 11764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9990 (http)
+2019-01-11 09:42:52.694  INFO 11764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-11 09:42:52.695  INFO 11764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-01-11 09:42:54.313  INFO 11764 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-01-11 09:42:54.314  INFO 11764 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1832 ms
+2019-01-11 09:42:54.349  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-01-11 09:42:54.351  INFO 11764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-11 09:42:54.383  INFO 11764 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/monitor'
+2019-01-11 09:42:54.404  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.413  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.432  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.434  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.437  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.440  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.443  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.449  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.452  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.457  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.464  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.468  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.469  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.471  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.472  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.474  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.476  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.479  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.482  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-11 09:42:54.485  INFO 11764 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/monitor],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-11 09:42:54.537  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.boot.actuate.autoconfigure.web.servlet.ManagementErrorEndpoint.invoke(org.springframework.web.context.request.ServletWebRequest)
+2019-01-11 09:42:54.552  INFO 11764 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-11 09:42:54.559  INFO 11764 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-11 09:42:54.596  INFO 11764 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c5ee75e: startup date [Fri Jan 11 09:42:52 IST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568
+2019-01-11 09:42:55.068  INFO 11764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9990 (http) with context path ''
+2019-01-11 09:42:55.109  INFO 11764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-11 09:42:55.112  INFO 11764 --- [main] com.springboot.main.SpringBootMain       : Started SpringBootMain in 18.332 seconds (JVM running for 19.021)
+2019-01-11 09:43:26.640  INFO 11764 --- [http-nio-9999-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-11 09:43:26.641  INFO 11764 --- [http-nio-9999-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-11 09:43:28.052  INFO 11764 --- [http-nio-9999-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 1410 ms
+2019-01-11 09:43:29.054  INFO 11764 --- [http-nio-9999-exec-8] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 09:43:29.013  INFO 11764 --- [http-nio-9999-exec-10] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 09:43:29.135  INFO 11764 --- [http-nio-9999-exec-9] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 09:43:29.369  INFO 11764 --- [http-nio-9999-exec-8] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-01-11 18:59:29.226  WARN 11764 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m37s727ms290µs218ns).
+2019-01-11 20:15:15.042  WARN 11764 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m43s915ms907µs721ns).
+2019-01-11 20:38:08.693  INFO 11764 --- [Thread-8] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568: startup date [Fri Jan 11 09:42:37 IST 2019]; root of context hierarchy
+2019-01-11 20:38:08.731  INFO 11764 --- [Thread-8] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c5ee75e: startup date [Fri Jan 11 09:42:52 IST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8568
+2019-01-11 20:38:09.434  INFO 11764 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-01-11 20:38:09.437  INFO 11764 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-01-11 20:38:09.440  INFO 11764 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-11 20:38:09.501  INFO 11764 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-11 20:38:09.510  INFO 11764 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

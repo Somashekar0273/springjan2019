@@ -1,5 +1,7 @@
-/.metadata/
+.metadata/
 
-/.recommenders/
+.recommenders/
 
 /Servers/
+/.metadata
+/.recommenders

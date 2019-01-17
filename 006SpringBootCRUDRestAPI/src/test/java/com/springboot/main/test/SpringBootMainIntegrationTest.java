@@ -27,19 +27,13 @@ public class SpringBootMainIntegrationTest {
 
 	@Autowired
 	MockMvc mockMvc;
-	
 	@Test
 	public void contextLoads() throws Exception{
-	
 		MvcResult mvcResult  = (MvcResult) mockMvc.perform(
 				MockMvcRequestBuilders.get("/api/v1/get")
 								.accept(MediaType.APPLICATION_JSON))
 								.andExpect(status().isOk())
 								.andReturn();
-					
 		System.out.println(mvcResult.getResponse());
-		
-		
 	}
-	
 }

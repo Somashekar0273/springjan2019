@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.spring.microservices"/>
 			<item value="com.springboot"/>
 			<item value="com.springbasics"/>
 			<item value="com.spring.basics"/>
 			<item value="com.spring.beginner"/>
 		</list>
 		<list key="name">
+			<item value="007SpringCloudServer"/>
 			<item value="006SpringBootCRUDRestAPI"/>
 			<item value="004SpringInnerBeans"/>
 			<item value="003SpringBeanMultiple"/>
@@ -15,6 +17,7 @@
 			<item value="001SpringMaven"/>
 		</list>
 		<list key="artifactId">
+			<item value="007SpringCloudServer"/>
 			<item value="006SpringBootCRUDRestAPI"/>
 			<item value="004SpringInnerBeans"/>
 			<item value="003"/>

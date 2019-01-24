@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="008SpringCloudDelete"/>
 <aop-project name="006SpringBootCRUDRestAPI"/>
+<aop-project name="001SpringMaven"/>
 <aop-project name="005SpringMVCBasic"/>
+<aop-project name="007SpringCloudServer"/>
 </aop-reference-model>

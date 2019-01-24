@@ -1,0 +1,5 @@
+com\springwebmvc\basic\bean\Friend.class
+com\springwebmvc\basic\dao\FriendDao.class
+com\springwebmvc\basic\service\FriendService.class
+com\springwebmvc\basic\controller\WelcomeController.class
+com\springwebmvc\basic\entity\FriendEntity.class

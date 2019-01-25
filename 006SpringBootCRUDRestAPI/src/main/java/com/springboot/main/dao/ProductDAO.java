@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 import com.springboot.main.entity.ProductEntity;
 import com.springboot.main.pojo.Product;
 import com.springboot.main.repository.ProductRepository;
-import com.springboot.main.service.ProductService;
 
 @Repository("productDao")
 public class ProductDAO {

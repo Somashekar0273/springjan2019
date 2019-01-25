@@ -1,6 +1,7 @@
 package com.springboot.main.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.transaction.Transactional;
 
@@ -26,10 +27,10 @@ public class ProductService {
 	
 	@Transactional
 	@Cacheable("product")
-	public Product getProductById(int id) {
+	public Optional<Product> getProductById(int id) {
 		try {
 			System.out.println("Sleep for 8 seconds to simulate call to DB");
-			Thread.sleep(8000);
+			Thread.sleep(2000);
 		}catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();

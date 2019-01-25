@@ -1,11 +1,13 @@
 package com.springboot.main.restcontroller;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.springboot.main.entity.ProductEntity;
+import com.springboot.main.exception.ResourceNotFoundException;
 import com.springboot.main.pojo.Product;
 import com.springboot.main.service.ProductService;
 
@@ -40,8 +43,10 @@ public class RestProductController {
 	}
 	
 	@RequestMapping(value="/get/{id}", method=RequestMethod.GET)
-	public Product getProductById(@PathVariable("id") int myid) {
-		return productService.getProductById(myid);
+	public ResponseEntity<Product> getProductById(@PathVariable("id") int myid) throws ResourceNotFoundException {
+	 Product p  = productService.getProductById(myid).orElseThrow(()-> new ResourceNotFoundException("Product not found: + " + myid));
+	 return ResponseEntity.ok().body(p);
+			
 	}
 	
 	@RequestMapping(value="/get", method=RequestMethod.GET)

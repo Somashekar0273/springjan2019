@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.soring.basics.bean&apos; to &apos;com.sPring.basics.bean&apos;&#x0D;&#x0A;- Original project: &apos;002SpringBasics&apos;&#x0D;&#x0A;- Original element: &apos;002SpringBasics/src/main/java/com.soring.basics.bean&apos;&#x0D;&#x0A;- Renamed element: &apos;002SpringBasics/src/main/java/com.sPring.basics.bean&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.soring.basics.bean&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.soring.basics.bean" name="com.sPring.basics.bean" qualified="false" references="true" stamp="1546488983269" textual="false" version="1.0"/>
-</session>

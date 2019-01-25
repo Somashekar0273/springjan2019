@@ -1,6 +1,7 @@
 package com.springboot.main.dao;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -29,14 +30,22 @@ public class ProductDAO {
 	}
 	
 	//get product by id
-	public Product getProductById(int id) {
-		ProductEntity pe = productRepository.findById(id).get();
+	public Optional<Product> getProductById(int id) {
+		ProductEntity pe = new ProductEntity();
+		try {
+			pe = productRepository.findById(id).get(); 
+		} catch (Exception e) {
+			// TODO: handle exception
+			return Optional.empty();
+		}
+		
 		Product p = new Product();
 		p.setId(pe.getId());
 		p.setName(pe.getName());
 		p.setCategoryid(pe.getCategoryid());
 		p.setPrice(pe.getPrice());
-		return p;
+		Optional<Product> p1 = Optional.of(p); 
+		return p1;
 	}
 	
 	//get all products
